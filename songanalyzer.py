@@ -73,9 +73,7 @@ class Solution:
         final_string = ""
         for l in range(len(alit_letters)):
             final_string = final_string + "{letter}={number}, ".format(letter = alit_letters[1],number=letter_count[1])
-        return final_string +"{rhymes} rhyming words".format(rhymes=rhyme_count)
-
-        pass
+        return final_string + "{rhymes} rhyming words".format(rhymes=rhyme_count)
 
 def main():
     string1 = input()
